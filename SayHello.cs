@@ -10,6 +10,13 @@ public class SayHello
         if (!string.IsNullOrEmpty(message))
             this.message = message;
 
+		Greet();
         Console.WriteLine(message);
     }
+	
+	public void Greet()
+	{
+	  Console.WriteLine(message);
+	}
+
 }
