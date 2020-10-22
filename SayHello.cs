@@ -1,8 +1,9 @@
 using System;
+using System.Linq;
 
 public class SayHello
 {
-    private string message = "Hello, World.\n";
+    private string message = "Hello, World.";
 
     // CTor  
     public SayHello(string message = "")
@@ -10,7 +11,14 @@ public class SayHello
         if (!string.IsNullOrEmpty(message))
             this.message = message;
 
+		Greet();
         Console.WriteLine(message);
     }
+	
+	public void Greet()
+	{
+	  Console.WriteLine(message);
+	}
+
 }
 // This is the comment
