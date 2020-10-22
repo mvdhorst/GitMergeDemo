@@ -3,7 +3,7 @@ using System.Linq;
 
 public class SayHello
 {
-    private string message = "Hello, World.";
+    private string message = "Hello World.";
 
     // CTor  
     public SayHello(string message = "")
@@ -26,3 +26,4 @@ public class SayHello
 
 }
 // This is the comment
+// Greet fixes the whole Covid greetings handshaking issue.
