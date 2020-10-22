@@ -17,6 +17,8 @@ public class SayHello
 	public void Greet()
 	{
 	  Console.WriteLine(message);
+	  Console.WriteLine(message);
+	  Console.WriteLine(message);
 	}
 
 }
