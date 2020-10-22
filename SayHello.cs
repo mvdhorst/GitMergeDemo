@@ -3,7 +3,7 @@ using System.Linq;
 
 public class SayHello
 {
-    private string message = "Hello, World.";
+    private string message = "Hello World.";
 
     // CTor  
     public SayHello(string message = "")
