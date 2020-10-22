@@ -2,7 +2,7 @@ using System;
 
 public class SayHello
 {
-    private string message = "Hello, World.\n";
+    private string message = "Hello, World.";
 
     // CTor  
     public SayHello(string message = "")
